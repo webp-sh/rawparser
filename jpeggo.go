@@ -35,7 +35,7 @@ import (
 )
 
 func init() {
-	log.Println("Using pure GO JPEG package")
+	// log.Println("Using pure GO JPEG package")
 }
 
 func decodeAndWriteJpeg(data []byte, quality int, filename string) error {
